@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="divCabecalho">
+        <img src="Imagens/logousuario.png" class="imgLogoUsuario"/>
+    <form id="form1" runat="server">
+        
+
+    <div class="">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <div class="divRodape">
+        <div class="divTextoRodape">
+            <br />
+            Todos direito reservados á Milimindrim Consult  ©.
+            </div>
+    </div>
+</body>
+</html>
+
