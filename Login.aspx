@@ -9,7 +9,9 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        Testing
+        <asp:TextBox runat="server" ID="txtLogin"></asp:TextBox>
+        <asp:TextBox runat="server" ID="txtPass"></asp:TextBox>
+        <asp:Button runat="server" ID="btnLogin" OnClick="btnLogin_Click" Text="Logar"/>
     </div>
     </form>
 </body>
