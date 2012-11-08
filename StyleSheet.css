@@ -44,5 +44,29 @@
 .divCentral {
     margin-top: 5px;
     margin-bottom: 5px;
+    margin: 0px auto;
+    width: 456px;
+    height: 226px;
+    margin-top: 150px;
+    color: #2D436A;
+    font-weight: bold;
+}
+.divCentralLogin {
+    background: url('Imagens/login.png');
+    margin: 0px auto;
+    width: 456px;
+    height: 226px;
+}
+
+.divBotao {
+    color: #2D436A;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 

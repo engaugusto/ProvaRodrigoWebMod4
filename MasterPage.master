@@ -16,12 +16,15 @@
         <img src="Imagens/logousuario.png" class="imgLogoUsuario"/>
     <form id="form1" runat="server">
         
-
+    <div style="clear:both"></div>
     <div class="">
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
+            
+
         </asp:ContentPlaceHolder>
     </div>
+            
     </form>
     <div class="divRodape">
         <div class="divTextoRodape">
