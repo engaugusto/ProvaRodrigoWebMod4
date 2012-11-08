@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ProvaRodrigoWebMod4(1)", "http://localhost:51287", "{A319596E-CBC8-4735-A839-72BE5AD232A6}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\ProvaRodrigoWebMod4\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51287\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51287"
+		DefaultWebSiteLanguage = "Visual C#"
+		ProjectReferences = ""
+		Release.AspNetCompiler.Debug = "False"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\ProvaRodrigoWebMod4\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51287\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51287"
+		SlnRelativePath = "..\..\..\GitHub\ProvaRodrigoWebMod4\"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		UseIISExpress = "true"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "Projects\DAL\DAL.csproj", "{07BA1FC4-4287-43B2-B174-F7F8C2D36C8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "Projects\BL\BL.csproj", "{2C89DC3F-346D-4DE7-9751-31D107BBF752}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07BA1FC4-4287-43B2-B174-F7F8C2D36C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BA1FC4-4287-43B2-B174-F7F8C2D36C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BA1FC4-4287-43B2-B174-F7F8C2D36C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BA1FC4-4287-43B2-B174-F7F8C2D36C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C89DC3F-346D-4DE7-9751-31D107BBF752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C89DC3F-346D-4DE7-9751-31D107BBF752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C89DC3F-346D-4DE7-9751-31D107BBF752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C89DC3F-346D-4DE7-9751-31D107BBF752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A319596E-CBC8-4735-A839-72BE5AD232A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A319596E-CBC8-4735-A839-72BE5AD232A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A319596E-CBC8-4735-A839-72BE5AD232A6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A319596E-CBC8-4735-A839-72BE5AD232A6}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
