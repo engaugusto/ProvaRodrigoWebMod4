@@ -46,22 +46,5 @@
                     </div>
             </div>
         </div>
-=======
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    
-    <form id="form1" runat="server">
-    <div>
-<<<<<<< HEAD
-        <asp:TextBox runat="server" ID="txtLogin"></asp:TextBox>
-        <asp:TextBox runat="server" ID="txtPass"></asp:TextBox>
-        <asp:Button runat="server" ID="btnLogin" OnClick="btnLogin_Click" Text="Logar"/>
-=======
-        Testing asfjahsofhnal
->>>>>>> 960b90c52da007860fd274d9469ecdb16133b49c
->>>>>>> c326718a6dbdca0d72352f06ea3ad45af9f5532c
     </div>
 </asp:Content>
