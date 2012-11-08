@@ -1,0 +1,48 @@
+﻿body {
+    margin: 0px;
+    font-family: Arial;
+   
+}
+
+
+.divCabecalho {
+    background: url('Imagens/cabecalho.png');
+    background-repeat: repeat-x;
+    height: 90px;
+    width: 100%;
+    margin: 0px;
+
+
+    
+}
+
+
+.imgLogoUsuario {
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.divRodape {
+    position: absolute;
+    bottom: 0px;
+    background: url('Imagens/rodape.png');
+    background-repeat: repeat-x;
+    height: 72px;
+    width: 100%;
+    margin: 0px;   
+}
+
+.divTextoRodape {
+
+    text-align: center;
+    color: #2D436A;
+    font-weight: bold;
+    height: 72px;
+}
+
+.divCentral {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
